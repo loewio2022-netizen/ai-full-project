@@ -1,7 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "version": 3,
-  "installCommand": "npm install --legacy-peer-deps",
+  "version": 2,
   "builds": [
     {
       "src": "frontend/package.json",
