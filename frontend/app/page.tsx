@@ -21,7 +21,7 @@ export default function Home() {
     setImages([]);
     setJson(null);
 
-    const res = await fetch("http://localhost:8000/generate", {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/generate`, {
       method: "POST",
       body: form,
     });
