@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apple-like base */
+body {
+  @apply bg-[#f5f5f7] text-gray-900 antialiased;
+}
+
+/* Smooth transitions everywhere */
+* {
+  @apply transition-all duration-200 ease-in-out;
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* Apple shadow */
+.shadow-apple {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
